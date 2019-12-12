@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView" android:layout_width="150.0dip" android:layout_height="130.0dip" android:src="@drawable/logo" />
+        <TextView android:id="@id/textView2" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This app requires API keys!" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="right" android:id="@id/txtLogin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username:" android:layout_weight="1.0" />
+            <EditText android:id="@id/edtLogin" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="1" android:singleLine="true" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="right" android:id="@id/txtPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password:" android:layout_weight="1.0" />
+            <EditText android:id="@id/edtPassword" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="1" android:password="true" android:singleLine="true" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/btnGetApiKeys" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign in" />
+        <Button android:id="@id/btnOffline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Offline" android:onClick="btnOffline" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/llStartMenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <Button android:id="@id/btnStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start!" android:layout_weight="0.85" />
+            <Button android:id="@id/btnUserInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User info" android:layout_weight="0.15" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layoutPadding" android:padding="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutInfo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="30.0dip" android:layout_gravity="center_horizontal" android:id="@id/txtDetailsESSID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ESSID" android:layout_weight="0.03" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtDetailsBSSID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BSSID" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtDetailsSignal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Signal: 56%" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtDetailsFreq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Freq: 200 Ghz" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtDetailsChannel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Channel: 12" />
+        <CheckBox android:id="@id/chkbUseDetector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enable signal peak monitor" android:layout_weight="0.03" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llGrphView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

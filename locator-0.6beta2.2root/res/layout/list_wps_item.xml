@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/row" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="100.0">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="320.0dip" android:layout_height="wrap_content">
+            <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:textColor="#ff2648b8" android:gravity="center|left" android:id="@id/txtPin" android:layout_width="120.0dip" android:layout_height="fill_parent" android:text="12345670" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/txtMetod" android:layout_width="130.0dip" android:layout_height="fill_parent" android:text="Linear sequence" android:maxLines="1" />
+            <TextView android:gravity="center_vertical" android:id="@id/txtScor" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="47%" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffc012c4" android:gravity="top" android:id="@id/txtDb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

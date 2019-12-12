@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="32.0dip" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/txtLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Login" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffa0a0a0" android:id="@id/labRegDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Registration Date" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtRegDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="1234-01-01 12:34:56" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffa0a0a0" android:id="@id/labGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Access Level" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/txtGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="Level" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <Button android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Update" android:onClick="btnUpdateOnClick" />
+        <Button android:id="@id/btnRevert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Revert" android:onClick="btnRevertOnClick" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strings_settings_rows">
+        <item>Locator Settings</item>
+        <item>WPS PIN Companion</item>
+        <item>About</item>
+        <item>Check updates</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

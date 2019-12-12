@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/baseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3WiFi Base" android:layout_weight="1.0" android:onClick="btnwpsbaseclick" />
+        <Button android:id="@id/wpsButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Generate" android:layout_weight="1.0" android:onClick="btnGenerate" />
+        <Button android:id="@id/wpsButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Local" android:layout_weight="1.0" android:onClick="btnLocalClick" />
+        <Button android:id="@id/btnLog" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="log" android:layout_weight="1.0" android:onClick="btnLogClick" />
+    </LinearLayout>
+    <EditText android:textSize="14.0sp" android:id="@id/LogTxt" android:layout_width="fill_parent" android:layout_height="0.0dip" android:ems="10" android:inputType="textMultiLine" />
+    <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@id/ESSDWpsTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ESSD" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/BSSDWpsTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="00:00:00:00:00:00" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/VendorWpsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ListView android:id="@id/WPSlist" android:layout_width="320.0dip" android:layout_height="wrap_content" />
+</LinearLayout>
