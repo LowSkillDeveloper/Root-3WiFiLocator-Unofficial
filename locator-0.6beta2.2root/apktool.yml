@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: locator-0.6beta2.2root.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '14'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '5'
+  versionName: '0.6'
