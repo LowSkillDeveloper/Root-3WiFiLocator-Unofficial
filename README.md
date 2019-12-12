@@ -10,9 +10,11 @@ decompiled locator-0.6beta2.2root and changed:
 * Updated pin.db (from latest "Wps Wpa tester").
 
 For compil back use apktool:
-**apktool b locator-0.6beta2.2root
+**apktool b locator-0.6beta2.2root**
 
-**my NON-root version of Locator: https://github.com/LowSkillDeveloper/Root-3WiFiLocator-Unofficial
+------------------------------------------------
+
+**my NON-root version of Locator: https://github.com/LowSkillDeveloper/Root-3WiFiLocator-Unofficial**
 
 Original locator source: https://github.com/FusixGit/WiFiPasswordSearcher
 
