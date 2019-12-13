@@ -14,7 +14,7 @@ For compil back use apktool:
 
 ------------------------------------------------
 
-**my NON-root version of Locator: https://github.com/LowSkillDeveloper/Root-3WiFiLocator-Unofficial**
+**my NON-root version of Locator: https://github.com/LowSkillDeveloper/3WiFiLocator-Unofficial**
 
 Original locator source: https://github.com/FusixGit/WiFiPasswordSearcher
 
